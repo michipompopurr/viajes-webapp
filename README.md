@@ -13,10 +13,5 @@ Aplicación web para una agencia de viajes que permite la búsqueda interactiva 
 ## Tecnologías utilizadas
 
 - HTML, CSS y JavaScript
-- (Opcional) Frameworks o librerías adicionales según se requiera
 
-## Instalación
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/viajes-webapp.git
