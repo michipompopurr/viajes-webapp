@@ -17,8 +17,8 @@ function buscarVuelos(origen, destino, fecha) {
   setTimeout(() => {
     resultadosDiv.innerHTML += `
       <ul>
-        <li>Vuelo 101: ${origen} a ${destino} - Precio: $250</li>
-        <li>Vuelo 202: ${origen} a ${destino} - Precio: $300</li>
+        <li>Vuelo 101: ${origen} a ${destino} - Precio: $250.000</li>
+        <li>Vuelo 202: ${origen} a ${destino} - Precio: $300.000</li>
       </ul>
     `;
   }, 1000);
