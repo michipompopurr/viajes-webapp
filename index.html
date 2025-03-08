@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes WebApp</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Agencia de Viajes</h1>
+    <nav>
+      <ul>
+        <li><a href="#vuelos">Buscar Vuelos</a></li>
+        <li><a href="#paquetes">Paquetes Turísticos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="vuelos">
+      <h2>Búsqueda de Vuelos</h2>
+      <form id="busquedaVuelos">
+        <label for="origen">Origen:</label>
+        <input type="text" id="origen" name="origen" required>
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required>
+        <label for="fecha">Fecha de viaje:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <button type="submit">Buscar</button>
+      </form>
+      <div id="resultadosVuelos"></div>
+    </section>
+    <section id="paquetes">
+      <h2>Paquetes Turísticos</h2>
+      <p>Próximamente...</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Agencia de Viajes WebApp</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
