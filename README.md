@@ -11,6 +11,6 @@ Aplicación web para una agencia de viajes que permite la búsqueda interactiva 
 
 ## Tecnologías utilizadas
 
-- HTML, CSS y JavaScript
+- HTML, PHP, CSS y JavaScript
 
 
